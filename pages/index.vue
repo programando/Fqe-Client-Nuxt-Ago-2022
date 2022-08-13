@@ -4,10 +4,10 @@
       <HeaderLogos></HeaderLogos>
     
     <div class="flex justify-center mt-8">
-      <h2 class="text-4xl lg:text-5xl text-primary text-black">Pagos en Línea</h2>
+      <h2 class="text-3xl lg:text-3xl text-primary text-black">Pagos en Línea</h2>
     </div>
         <div class="flex justify-center">
-        <h2 class="mt-4 text-2xl lg:text-2xl text-primary text-black">Realice su pago por medio de:</h2>
+        <h2 class="mt-4 text-2xl lg:text-12l text-primary text-black">Realice su pago por medio de:</h2>
       </div>
 
     <div class="flex items-center justify-center">
@@ -61,7 +61,7 @@
             </nuxt-link>  
 
             <div class="flex justify-center mt-4 mb-4 space-x-3">
-               <a href="http://www.fqesas.com" class="flex justify-center px-2 py-1 text-white border rounded-lg w-28 bg-primary border-primary">
+               <a href="http://api.fqesas.com" class="flex justify-center px-2 py-1 text-white border rounded-lg w-28 bg-primary border-primary">
                          Cancelar
                   </a>  
             </div>

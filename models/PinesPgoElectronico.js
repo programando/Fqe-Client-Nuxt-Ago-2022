@@ -1,5 +1,5 @@
 import Api  from "@/config/Axios";
- import axios from "axios";
+ 
 
 export default {
 
