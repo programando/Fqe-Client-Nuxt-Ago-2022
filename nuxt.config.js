@@ -3,7 +3,7 @@ import dotenv from "dotenv"; dotenv.config();
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Fqe-WebApp',
+    title: 'FQE - WebApp',
     htmlAttrs: {
       lang: 'es'
     },
@@ -14,7 +14,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
   server: {
