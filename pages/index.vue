@@ -1,8 +1,6 @@
 <template>
   <div class="font-robo">
-   
-      <HeaderLogos></HeaderLogos>
-    
+
     <div class="flex justify-center mt-8">
       <h2 class="text-3xl lg:text-3xl text-primary text-black">Pagos en Línea</h2>
     </div>
