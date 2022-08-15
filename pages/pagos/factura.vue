@@ -15,7 +15,7 @@
           <div class="flex justify-center">
             <input
               class="w-12 px-2 py-1 text-center border rounded-lg focus:outline-none sm:w-16 "
-              type="text" v-model="prfjo_rslcion" disabled="disabled"
+              type="text" v-model="prfjo_rslcion" 
             />
             <input
               class="px-2 py-1 text-right border rounded-lg w-36 focus:outline-none sm:w-40"
@@ -75,7 +75,7 @@ export default {
   mixins: [Messages, formValid, PayuLatamSendForm],
   data: ()=>  ({
      
-        prfjo_rslcion :'FEL',
+        prfjo_rslcion :'',
         num_fact:'',
           formUser : {
               nro_identif:'',
