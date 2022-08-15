@@ -2,7 +2,7 @@
   <div>
     <div class="flex justify-center mt-2 -ml-4  md:ml-4 md:mt-8"  >
      
-     <a href="https://api.fqesas.com">
+     <a href="https://fqesas.com">
         <img class="mt-4 h-20 " src="/logo.jpg" alt="Fqe-Sas.com" />
       </a>
 

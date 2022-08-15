@@ -13,7 +13,7 @@
 
         <div class="flex flex-col items-center justify-center ">
           <form class="w-full mx-20 lg:mx-28">
-            <nuxt-link to="pin">
+            <nuxt-link to="/pagos/pin">
               <div
                 class="w-full p-1 text-center hover:bg-gray-200 hover:text-primary"
               >
@@ -24,7 +24,7 @@
                 >
               </div>
             </nuxt-link>
-            <nuxt-link to="pedido">
+            <nuxt-link to="/pagos/pedido">
               <div
                 class="w-full p-1 mt-2 text-center hover:bg-gray-200 hover:text-primary"
               >
@@ -35,7 +35,7 @@
                 >
               </div>
             </nuxt-link>
-            <nuxt-link to="factura">
+            <nuxt-link to="/pagos/factura">
               <div
                 class="w-full p-1 mt-2 text-center hover:bg-gray-200 hover:text-primary"
               >
@@ -46,7 +46,7 @@
                 >
               </div>
             </nuxt-link>
-            <nuxt-link to="libre" >
+            <nuxt-link to="/pagos/libre" >
               <div
                 class="w-full p-1 mt-2 text-center hover:bg-gray-200 hover:text-primary"
               >
@@ -59,7 +59,7 @@
             </nuxt-link>  
 
             <div class="flex justify-center mt-4 mb-4 space-x-3">
-               <a href="http://api.fqesas.com" class="flex justify-center px-2 py-1 text-white border rounded-lg w-28 bg-primary border-primary">
+               <a href="http://fqesas.com" class="flex justify-center px-2 py-1 text-white border rounded-lg w-28 bg-primary border-primary">
                          Cancelar
                   </a>  
             </div>
