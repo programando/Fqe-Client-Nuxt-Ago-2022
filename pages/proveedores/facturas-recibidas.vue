@@ -33,8 +33,8 @@
                       <span class="inline-flex items-center justify-center h-5 py-3 px-3 text-white bg-green-600 rounded-full">Ok</span>  
                 </button>
                 
-                <span v-if="Factura['acuse_030']==true" class="inline-flex items-center justify-center h-5 py-3 px-3 ">
-                   <img  class="w-6 h-6 cursor-pointer" src="/proteger.png" alt="" />
+                <span v-else class="inline-flex items-center justify-center h-5 py-3 px-3 ">
+                   <img  class="w-6 h-6 " src="/chulo.png" alt="" />
                 </span> 
           </td>
 
@@ -43,8 +43,8 @@
                     @click="reciboBienServicio(Factura)" >          
                       <span class="inline-flex items-center justify-center h-5 py-3 px-3 text-white bg-green-600 rounded-full">Ok</span>  
                 </button>
-                <span v-if="Factura['recibo_032']==true" class="inline-flex items-center justify-center h-5 py-3 px-3 ">
-                  <img  class="w-6 h-6 cursor-pointer" src="/proteger.png" alt="" />
+                <span v-else class="inline-flex items-center justify-center h-5 py-3 px-3 ">
+                  <img  class="w-6 h-6 " src="/chulo.png" alt="" />
                 </span> 
           </td>
 
@@ -53,8 +53,8 @@
                         @click="acepacionExpresa(Factura )" >         
                       <span class="inline-flex items-center justify-center h-5 py-3 px-3 text-white bg-green-600 rounded-full">Ok</span>  
                 </button>
-                 <span v-if="Factura['aceptacion_033']==true" class="inline-flex items-center justify-center h-5 py-3 px-3 ">
-                  <img  class="w-6 h-6 cursor-pointer" src="/proteger.png" alt="" />
+                 <span v-else class="inline-flex items-center justify-center h-5 py-3 px-3 ">
+                  <img  class="w-6 h-6 " src="/chulo.png" alt="" />
                  </span> 
           </td>
 
