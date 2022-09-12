@@ -1,7 +1,7 @@
 <template>
   <div class="mx-10 mt-4">
   
-  <HeaderLogos></HeaderLogos>
+  
   
     <div class="flex items-center justify-center mt-8 md:mt-14">
       <div class="px-10 py-4 border border-primary">

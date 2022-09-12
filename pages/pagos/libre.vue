@@ -1,7 +1,7 @@
 <template>
   <div class="mx-10 mt-4">
 
-    <HeaderLogos></HeaderLogos>
+   
 
     <div class="flex items-center justify-center mt-8 md:mt-14">
       <div class="px-10 py-4 border border-primary">
@@ -108,7 +108,8 @@ export default {
 
          signatureMD5( ) {
             let valorPIN = parseInt(this.formUser.valor_pagar.replace(/\./g, '') ) ;
-            let signature = process.env.SIGNATURE + this.formUser.referenceCode +"~" + valorPIN+  "~COP"; 
+            let signature = process.env.SIGNATURE + this.formUser.referenceCode +'~' + valorPIN+  '~COP'; 
+            //console.log (signature , md5( signature))
             return md5( signature);         
           },
 

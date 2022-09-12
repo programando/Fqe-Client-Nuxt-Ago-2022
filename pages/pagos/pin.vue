@@ -1,6 +1,6 @@
 <template>
   <div class="mx-10 mt-4">
-      <HeaderLogos></HeaderLogos>
+       
     <div class="flex items-center justify-center mt-8 md:mt-14">
       <div class="px-10 py-4 border border-primary">
         <div class="pb-4 text-lg sm:text-xl lg:text-2xl text-primary ">

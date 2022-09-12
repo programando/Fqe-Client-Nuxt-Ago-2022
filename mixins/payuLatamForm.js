@@ -3,7 +3,8 @@
     
     methods: {
         
-        PayuLatamSendForm(form, keyField, md5Key) {       
+        PayuLatamSendForm(form, keyField, md5Key) {    
+            
         let valorPIN = parseInt(form.valor_pagar.replace(/\./g, ''));    
             document.getElementById('amount').value        = valorPIN;
             document.getElementById('buyerEmail').value    = form.email.trim();
