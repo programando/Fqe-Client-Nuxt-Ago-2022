@@ -6,10 +6,12 @@
         <img class="mt-4 h-20 " src="/logo.jpg" alt="Fqe-Sas.com" />
       </a>
 
-      <div class="hidden lg:block ml-36">
-        <img class="h-28" src="PayU.png" alt="pagos    " />
-      </div>
-
+      <!--
+        <div class="hidden lg:block ml-36">
+          <img class="h-28" src="PayU.png" alt="pagos    " />
+        </div>
+      -->
+      
     </div>
   </div>
 </template>

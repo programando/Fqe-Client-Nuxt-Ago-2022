@@ -7,3 +7,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.table {
+    @apply w-full   border-separate lg:border-collapse
+}
+
+.table-titulos {
+    @apply border border-gray-400 px-4 py-2 text-sm text-left text-gray-700 ;
+}
+
+.table-celdas-left {
+    @apply border border-gray-400 px-4 py-2 text-sm text-left text-gray-700 ;
+}
+
+.table-celdas-center {
+    @apply border border-gray-400 px-4 py-2 text-sm text-center text-gray-700 ;
+}
+
+.table tbody tr {
+    @apply even:bg-gray-100 ;
+}
+
+.span-ok {
+    @apply p-1.5 text-xs  font-medium tracking-wider text-green-100 bg-green-600 rounded w-12;
+}

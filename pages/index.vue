@@ -1,4 +1,6 @@
 <template>
+  <div></div>
+  <!--
   <div class="font-robo">
 
     <div class="flex justify-center mt-8">
@@ -68,6 +70,7 @@
       </div>
     </div>
   </div>
+-->
 </template>
 
 <script>

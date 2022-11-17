@@ -97,6 +97,7 @@ export default {
   
     
      mounted() {
+      alert('fkfkfk')
           this.getFacturas();
      },
       mixins: [Messages ], 
