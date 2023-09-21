@@ -11,6 +11,7 @@
                       <th class="p-3 text-left">Dian</th>
                       <th class="p-3 text-left" width="50px">Pdf</th>
                       <th class="p-3 text-left" width="50px">Xml</th> 
+                      <th class="p-3 text-left" width="50px">Email</th> 
                   </tr>
               </thead>
               <tbody class="flex-1 sm:flex-none">
@@ -41,7 +42,11 @@
                       class="w-6 cursor-pointer" src="/xml.jpg"    /> 
               </td>
 
-             
+          <td  class="p-1 text-sm text-center border border-grey-light hover:bg-gray-100" > 
+                <img v-if="Factura['is_valid'] === 1"
+                      @click="SendEmail(Factura.id_fact_elctrnca)"
+                      class="w-12 cursor-pointer" src="/email.png"    /> 
+            </td>
       
             </tr>
           <tr>
@@ -86,7 +91,13 @@
                   let Url       = address.apiUrl+`invoices/download/${filetype}/${id_fact_elctrnca}`;
                   window.open(Url, '_blank');
                 },
-   
+
+            SendEmail(id_fact_elctrnca ) {
+                         Facturas.sendFiles ( id_fact_elctrnca  )
+                      .then (response => {
+                         
+                      })                   
+              }
  
           },
          
