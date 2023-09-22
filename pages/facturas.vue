@@ -45,7 +45,7 @@
           <td  class="p-1 text-sm text-center border border-grey-light hover:bg-gray-100" > 
                 <img v-if="Factura['is_valid'] === 1"
                       @click="SendEmail(Factura.id_fact_elctrnca)"
-                      class="w-6 cursor-pointer" src="/email.png"    /> 
+                      class="w-10 cursor-pointer" src="/email.png"    /> 
             </td>
       
             </tr>
